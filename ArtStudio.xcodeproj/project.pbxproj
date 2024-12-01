@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB04A23F2CFBE8FB006DBD50 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB04A23E2CFBE8FB006DBD50 /* CoreData.framework */; };
+		BB56EE9C2CF194E100BA42A3 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = BB56EE9B2CF194E100BA42A3 /* Moya */; };
+		BB92CA062CF0DAFB003A180D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = BB92CA052CF0DAFB003A180D /* Kingfisher */; };
+		BB92CA082CF0DB02003A180D /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = BB92CA072CF0DB02003A180D /* ComposableArchitecture */; };
+		BBD035192CF53F90004C29C1 /* WaterfallGrid in Frameworks */ = {isa = PBXBuildFile; productRef = BBD035182CF53F90004C29C1 /* WaterfallGrid */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB60B1622CF0D8B800D3C61B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB60B1492CF0D8B600D3C61B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB60B1502CF0D8B600D3C61B;
+			remoteInfo = ArtStudio;
+		};
+		BB60B16C2CF0D8B800D3C61B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB60B1492CF0D8B600D3C61B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB60B1502CF0D8B600D3C61B;
+			remoteInfo = ArtStudio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB04A23E2CFBE8FB006DBD50 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BB60B1512CF0D8B600D3C61B /* ArtStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB60B1612CF0D8B800D3C61B /* ArtStudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtStudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB60B16B2CF0D8B800D3C61B /* ArtStudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtStudioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BB81D9D32CF1FB4600916F9B /* Exceptions for "ArtStudio" folder in "ArtStudio" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				App/Info.plist,
+			);
+			target = BB60B1502CF0D8B600D3C61B /* ArtStudio */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BB60B1532CF0D8B600D3C61B /* ArtStudio */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BB81D9D32CF1FB4600916F9B /* Exceptions for "ArtStudio" folder in "ArtStudio" target */,
+			);
+			path = ArtStudio;
+			sourceTree = "<group>";
+		};
+		BB60B1642CF0D8B800D3C61B /* ArtStudioTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ArtStudioTests;
+			sourceTree = "<group>";
+		};
+		BB60B16E2CF0D8B800D3C61B /* ArtStudioUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ArtStudioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB60B14E2CF0D8B600D3C61B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB92CA062CF0DAFB003A180D /* Kingfisher in Frameworks */,
+				BB04A23F2CFBE8FB006DBD50 /* CoreData.framework in Frameworks */,
+				BBD035192CF53F90004C29C1 /* WaterfallGrid in Frameworks */,
+				BB56EE9C2CF194E100BA42A3 /* Moya in Frameworks */,
+				BB92CA082CF0DB02003A180D /* ComposableArchitecture in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB60B15E2CF0D8B800D3C61B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB60B1682CF0D8B800D3C61B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB60B1482CF0D8B600D3C61B = {
+			isa = PBXGroup;
+			children = (
+				BB60B1532CF0D8B600D3C61B /* ArtStudio */,
+				BB60B1642CF0D8B800D3C61B /* ArtStudioTests */,
+				BB60B16E2CF0D8B800D3C61B /* ArtStudioUITests */,
+				BB92CA022CF0DAF9003A180D /* Frameworks */,
+				BB60B1522CF0D8B600D3C61B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB60B1522CF0D8B600D3C61B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB60B1512CF0D8B600D3C61B /* ArtStudio.app */,
+				BB60B1612CF0D8B800D3C61B /* ArtStudioTests.xctest */,
+				BB60B16B2CF0D8B800D3C61B /* ArtStudioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB92CA022CF0DAF9003A180D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB04A23E2CFBE8FB006DBD50 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB60B1502CF0D8B600D3C61B /* ArtStudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB60B1752CF0D8B800D3C61B /* Build configuration list for PBXNativeTarget "ArtStudio" */;
+			buildPhases = (
+				BB60B14D2CF0D8B600D3C61B /* Sources */,
+				BB60B14E2CF0D8B600D3C61B /* Frameworks */,
+				BB60B14F2CF0D8B600D3C61B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BB60B1532CF0D8B600D3C61B /* ArtStudio */,
+			);
+			name = ArtStudio;
+			packageProductDependencies = (
+				BB92CA052CF0DAFB003A180D /* Kingfisher */,
+				BB92CA072CF0DB02003A180D /* ComposableArchitecture */,
+				BB56EE9B2CF194E100BA42A3 /* Moya */,
+				BBD035182CF53F90004C29C1 /* WaterfallGrid */,
+			);
+			productName = ArtStudio;
+			productReference = BB60B1512CF0D8B600D3C61B /* ArtStudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB60B1602CF0D8B800D3C61B /* ArtStudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB60B1782CF0D8B800D3C61B /* Build configuration list for PBXNativeTarget "ArtStudioTests" */;
+			buildPhases = (
+				BB60B15D2CF0D8B800D3C61B /* Sources */,
+				BB60B15E2CF0D8B800D3C61B /* Frameworks */,
+				BB60B15F2CF0D8B800D3C61B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB60B1632CF0D8B800D3C61B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BB60B1642CF0D8B800D3C61B /* ArtStudioTests */,
+			);
+			name = ArtStudioTests;
+			packageProductDependencies = (
+			);
+			productName = ArtStudioTests;
+			productReference = BB60B1612CF0D8B800D3C61B /* ArtStudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB60B16A2CF0D8B800D3C61B /* ArtStudioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB60B17B2CF0D8B800D3C61B /* Build configuration list for PBXNativeTarget "ArtStudioUITests" */;
+			buildPhases = (
+				BB60B1672CF0D8B800D3C61B /* Sources */,
+				BB60B1682CF0D8B800D3C61B /* Frameworks */,
+				BB60B1692CF0D8B800D3C61B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB60B16D2CF0D8B800D3C61B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BB60B16E2CF0D8B800D3C61B /* ArtStudioUITests */,
+			);
+			name = ArtStudioUITests;
+			packageProductDependencies = (
+			);
+			productName = ArtStudioUITests;
+			productReference = BB60B16B2CF0D8B800D3C61B /* ArtStudioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB60B1492CF0D8B600D3C61B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					BB60B1502CF0D8B600D3C61B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					BB60B1602CF0D8B800D3C61B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BB60B1502CF0D8B600D3C61B;
+					};
+					BB60B16A2CF0D8B800D3C61B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BB60B1502CF0D8B600D3C61B;
+					};
+				};
+			};
+			buildConfigurationList = BB60B14C2CF0D8B600D3C61B /* Build configuration list for PBXProject "ArtStudio" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = BB60B1482CF0D8B600D3C61B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BB60B17F2CF0DA4400D3C61B /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				BB60B1802CF0DA4F00D3C61B /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				BB92CA092CF0DBA4003A180D /* XCRemoteSwiftPackageReference "Moya" */,
+				BBD035172CF53E7D004C29C1 /* XCRemoteSwiftPackageReference "WaterfallGrid" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BB60B1522CF0D8B600D3C61B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB60B1502CF0D8B600D3C61B /* ArtStudio */,
+				BB60B1602CF0D8B800D3C61B /* ArtStudioTests */,
+				BB60B16A2CF0D8B800D3C61B /* ArtStudioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB60B14F2CF0D8B600D3C61B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB60B15F2CF0D8B800D3C61B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB60B1692CF0D8B800D3C61B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB60B14D2CF0D8B600D3C61B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB60B15D2CF0D8B800D3C61B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB60B1672CF0D8B800D3C61B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB60B1632CF0D8B800D3C61B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB60B1502CF0D8B600D3C61B /* ArtStudio */;
+			targetProxy = BB60B1622CF0D8B800D3C61B /* PBXContainerItemProxy */;
+		};
+		BB60B16D2CF0D8B800D3C61B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB60B1502CF0D8B600D3C61B /* ArtStudio */;
+			targetProxy = BB60B16C2CF0D8B800D3C61B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BB60B1732CF0D8B800D3C61B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB60B1742CF0D8B800D3C61B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB60B1762CF0D8B800D3C61B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ArtStudio/Preview Content\"";
+				DEVELOPMENT_TEAM = 9S9L5WC8K3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArtStudio/App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JustDoit.net.cn.ArtStudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB60B1772CF0D8B800D3C61B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ArtStudio/Preview Content\"";
+				DEVELOPMENT_TEAM = 9S9L5WC8K3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArtStudio/App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JustDoit.net.cn.ArtStudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB60B1792CF0D8B800D3C61B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HU6M74WJMH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JustDoit.net.cn.ArtStudioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArtStudio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ArtStudio";
+			};
+			name = Debug;
+		};
+		BB60B17A2CF0D8B800D3C61B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HU6M74WJMH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JustDoit.net.cn.ArtStudioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArtStudio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ArtStudio";
+			};
+			name = Release;
+		};
+		BB60B17C2CF0D8B800D3C61B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HU6M74WJMH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JustDoit.net.cn.ArtStudioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArtStudio;
+			};
+			name = Debug;
+		};
+		BB60B17D2CF0D8B800D3C61B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HU6M74WJMH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JustDoit.net.cn.ArtStudioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArtStudio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB60B14C2CF0D8B600D3C61B /* Build configuration list for PBXProject "ArtStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB60B1732CF0D8B800D3C61B /* Debug */,
+				BB60B1742CF0D8B800D3C61B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB60B1752CF0D8B800D3C61B /* Build configuration list for PBXNativeTarget "ArtStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB60B1762CF0D8B800D3C61B /* Debug */,
+				BB60B1772CF0D8B800D3C61B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB60B1782CF0D8B800D3C61B /* Build configuration list for PBXNativeTarget "ArtStudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB60B1792CF0D8B800D3C61B /* Debug */,
+				BB60B17A2CF0D8B800D3C61B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB60B17B2CF0D8B800D3C61B /* Build configuration list for PBXNativeTarget "ArtStudioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB60B17C2CF0D8B800D3C61B /* Debug */,
+				BB60B17D2CF0D8B800D3C61B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BB60B17F2CF0DA4400D3C61B /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.1.1;
+			};
+		};
+		BB60B1802CF0DA4F00D3C61B /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.16.1;
+			};
+		};
+		BB92CA092CF0DBA4003A180D /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+		BBD035172CF53E7D004C29C1 /* XCRemoteSwiftPackageReference "WaterfallGrid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/paololeonardi/WaterfallGrid";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BB56EE9B2CF194E100BA42A3 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB92CA092CF0DBA4003A180D /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		BB92CA052CF0DAFB003A180D /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB60B17F2CF0DA4400D3C61B /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		BB92CA072CF0DB02003A180D /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB60B1802CF0DA4F00D3C61B /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		BBD035182CF53F90004C29C1 /* WaterfallGrid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BBD035172CF53E7D004C29C1 /* XCRemoteSwiftPackageReference "WaterfallGrid" */;
+			productName = WaterfallGrid;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BB60B1492CF0D8B600D3C61B /* Project object */;
+}

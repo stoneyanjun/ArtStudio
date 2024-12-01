@@ -1,0 +1,6 @@
+strings:
+  inputs:
+    - ArtStudio/Resources/en.lproj/Localizable.strings # Update with your file path
+  outputs:
+    - templateName: structured-swift5
+      output: ArtStudio/Resources/Generated/Strings.swift

@@ -1,0 +1,29 @@
+/* 
+  Localizable.strings
+  ArtStudio
+
+  Created by stone on 2024/11/30.
+  
+*/
+
+// MARK: Common
+
+"common.title" = "艺术作坊";
+"common.title.unknown" = "未知主题";
+
+"common.alert.title.error" = "错误";
+"common.alert.message.unknown" = "未知错误";
+"common.alert.button.ok" = "确定";
+
+// MARK: enum
+
+"enum.search.displayType.discover" = "探索";
+"enum.search.displayType.search" = "搜寻";
+"enum.tabbar.topics" = "主题";
+"enum.tabbar.search" = "搜寻";
+
+// MARK: SearchView
+
+"search_view.button.search" = "搜寻";
+"search_view.textfield.placehold.search_photos" = "搜索图片";
+

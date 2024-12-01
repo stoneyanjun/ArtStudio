@@ -1,0 +1,29 @@
+/* 
+  Localizable.strings
+  ArtStudio
+
+  Created by stone on 2024/11/30.
+  
+*/
+
+// MARK: Common
+
+"common.title" = "ArtStudio";
+"common.title.unknown" = "Unknown";
+
+"common.alert.title.error" = "Error";
+"common.alert.message.unknown" = "Unknown error";
+"common.alert.button.ok" = "OK";
+
+// MARK: enum
+
+"enum.search.displayType.discover" = "Discover";
+"enum.search.displayType.search" = "Search";
+"enum.tabbar.topics" = "Topics";
+"enum.tabbar.search" = "Search";
+
+// MARK: SearchView
+
+"search_view.button.search" = "Search";
+"search_view.textfield.placehold.search_photos" = "Search photos";
+
